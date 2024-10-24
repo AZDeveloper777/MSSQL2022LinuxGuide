@@ -21,3 +21,8 @@ sudo /opt/mssql/bin/mssql-conf setup
 ```
 systemctl status mssql-server --no-pager
 ```
+6. Get the IP address of this machine
+```
+ip a
+```
+7. Test that you can connect with SSMS with the IP address from the previous step.
